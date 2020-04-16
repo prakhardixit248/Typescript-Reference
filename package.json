@@ -1,0 +1,46 @@
+{
+  "name": "tsc-freshers",
+  "version": "1.0.0",
+  "description": "TypeScript training for freshers batch",
+  "scripts": {
+    "server": "json-server --watch db.json --routes routes.json --port 3001",
+    "01": "tsc && node ./01_mike-check-123",
+    "02": "tsc && node ./02_js-vs-ts",
+    "03_numbers": "tsc && node ./03_annotation-vs-inference/01_numbers.js",
+    "03_strings": "tsc && node ./03_annotation-vs-inference/02_strings.js",
+    "03_boolean": "tsc && node ./03_annotation-vs-inference/03_boolean.js",
+    "03_object-literals": "tsc && node ./03_annotation-vs-inference/04_object-literals.js",
+    "03_arrays": "tsc && node ./03_annotation-vs-inference/05_arrays.js",
+    "03_functions": "tsc && node ./03_annotation-vs-inference/06_functions.js",
+    "04": "tsc && node ./04_modules",
+    "05": "tsc && node ./05_arrow-functions",
+    "06": "tsc && node ./06_type-alias",
+    "07": "tsc && node ./07_union-types",
+    "08": "tsc && node ./08_enums",
+    "09": "tsc && node ./09_rest-spread",
+    "10": "tsc && node ./10_generics",
+    "11_callback": "tsc && node ./11_async-patterns/01_callbacks",
+    "11_promise": "tsc && node ./11_async-patterns/02_promises",
+    "11_async-await": "tsc && node ./11_async-patterns/03_async-await"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innovation-stack/tsc-freshers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innovation-stack/tsc-freshers/issues"
+  },
+  "homepage": "https://github.com/innovation-stack/tsc-freshers#readme",
+  "devDependencies": {
+    "@types/request": "^2.48.4",
+    "json-server": "^0.16.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "request": "^2.88.2"
+  }
+}

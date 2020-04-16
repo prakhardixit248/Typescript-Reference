@@ -1,0 +1,9 @@
+
+// Pre ES2015 modules
+// IIFE: Immediate Invoking Function Expression
+(function () {
+    function x() {
+    }
+
+    console.log('hello');
+})();
